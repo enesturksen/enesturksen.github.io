@@ -48,6 +48,15 @@
         }
         .card h3 { font-size: 1.1rem; margin-bottom: 8px; color: #fff; }
         .card p { color: var(--muted); font-size: 0.95rem; }
+        .tag {
+            display: inline-block;
+            font-size: 0.8rem;
+            color: var(--accent);
+            background: rgba(56, 189, 248, 0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
         .links a {
             display: inline-block;
             margin-right: 15px;
@@ -62,32 +71,40 @@
     <div class="container">
         <header>
             <h1>Enes Türkşen</h1>
-            <div class="subtitle">Bilgisayar Mühendisliği Öğrencisi</div>
+            <div class="subtitle">Bilgisayar Mühendisliği Öğrencisi (2. Sınıf)</div>
             <p class="bio">
-                Veri yapıları, modern C++ mimarisi ve algoritma tasarımı odaklı yazılım geliştirme çalışmaları yürütüyorum.
+                C dili temeli üzerine modern C++ nesne yönelimli programlama, bellek yönetimi ve Python tabanlı İHA/drone yazılım entegrasyonu alanlarında kendimi geliştiriyorum. Bu dönem Veri Yapıları ve Algoritma Analizi dersleriyle çekirdek mühendislik altyapımı güçlendirmeyi hedefliyorum.
             </p>
         </header>
 
         <section>
-            <h2>Odaklandığım Teknolojiler</h2>
+            <h2>Teknik Yetkinlikler & Araçlar</h2>
             <div class="skills">
-                <span class="badge">C / C++</span>
-                <span class="badge">Algoritmalar & Veri Yapıları</span>
+                <span class="badge">C</span>
+                <span class="badge">C++ (OOP & Bellek Mimarisi)</span>
+                <span class="badge">Python (İHA & Simülasyon)</span>
                 <span class="badge">Git & GitHub</span>
-                <span class="badge">Python</span>
-                <span class="badge">Linux</span>
+                <span class="badge">Veri Yapıları (Öğrenim Sürecinde)</span>
+                <span class="badge">Algoritma Tasarımı</span>
             </div>
         </section>
 
         <section>
-            <h2>Geliştirme Aşamasındaki Projeler</h2>
+            <h2>Aktif Çalışmalar & Çalışma Alanları</h2>
             <div class="card">
-                <h3>CLI Veri Sıkıştırma Aracı (Huffman Coding)</h3>
-                <p>C++ ile bit düzeyinde işlemler ve Huffman Ağacı yapısı kullanarak terminal üzerinden dosya sıkıştıran ve açan veri yapıları projesi.</p>
+                <span class="tag">C++ Geliştirme</span>
+                <h3>Nesne Yönelimli Programlama & Sistem Mimarisi</h3>
+                <p>C dili tecrübesinin ardından C++ üzerinde sınıf mimarisi, RAM-bellek ilişkisi, kalıtım, dinamik çok biçimlilik (polymorphism), sanal metotlar ve istisna yönetimi konularında derinlemesine pratik çalışmalar yürütüyorum.</p>
             </div>
             <div class="card">
-                <h3>Bellek İçi LRU Cache Motoru</h3>
-                <p>İki yönlü bağlı liste (Doubly Linked List) ve Hash Map birleşimi ile O(1) erişim süresine sahip önbellek algoritması implementasyonu.</p>
+                <span class="tag">Robotik & Otonom Sistemler</span>
+                <h3>Python ile İHA / Drone Yazılım Entegrasyonu</h3>
+                <p>İnsansız hava araçlarının çalışma mekaniği, Python tabanlı haberleşme protokolleri, telemetri takibi ve uçuş simülasyonu entegrasyonları üzerine eğitimler ve uygulamalar gerçekleştiriyorum.</p>
+            </div>
+            <div class="card">
+                <span class="tag">Akademik Müfredat (3. Yarıyıl)</span>
+                <h3>Veri Yapıları ve Algoritma Analizi</h3>
+                <p>Üniversite müfredatı kapsamında bağlı listeler (linked lists), ağaç modelleri (trees), yığın/kuyruk yapıları ile Big-O zaman/alan karmaşıklığı analizlerini C++ ile kodlayarak sağlam bir algoritma temeli inşa ediyorum.</p>
             </div>
         </section>
 
